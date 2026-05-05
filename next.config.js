@@ -5,15 +5,16 @@ const nextConfig = {
       {
         protocol: 'https',
         hostname: 'cdn.shopify.com',
-        port: '',
         pathname: '/s/files/**',
       },
       {
         protocol: 'https',
         hostname: 'www.xtool.com',
+        pathname: '/cdn/**',
       },
     ],
+    unoptimized: true,
   },
-};
+}
 
-module.exports = nextConfig;
+module.exports = nextConfig
